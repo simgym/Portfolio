@@ -1,0 +1,149 @@
+.project_wrapper {
+  background-image: url(../assets/sky.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.advi-project,
+.sfh-project,
+.weather-project {
+  display: flex;
+  justify-content: space-between;
+}
+
+.projects_headings {
+  margin-top: 110px;
+  margin-bottom: 50px;
+  text-align: center;
+  font-size: xxx-large;
+  color: white;
+  margin-top: 0;
+}
+.advi-project-image,
+.sfh-project-image,
+.weather-project-image {
+  height: 400px;
+  width: 800px;
+  border-radius: 40px;
+  margin-bottom: 100px;
+}
+
+.advi-project-image,
+.weather-project-image {
+  margin-right: 100px;
+}
+.sfh-project-image {
+  margin-left: 100px;
+}
+.advi-project-description .description_list,
+.weather-project-description .description_list,
+.sfh-project-description .description_list {
+  margin-left: 100px;
+  list-style: circle;
+  padding: 30px;
+}
+.sfh-project-description .description_list {
+  margin-right: 100px;
+  list-style: circle;
+  padding: 30px;
+}
+.advi-project-description,
+.weather-project-description,
+.sfh-project-description {
+  margin-bottom: 100px;
+}
+.advi-project-description h2,
+.weather-project-description h2,
+.sfh-project-description h2 {
+  text-align: center;
+}
+.advi-project-description .project-skills,
+.weather-project-description .project-skills,
+.sfh-project-description .project-skills {
+  margin-left: 100px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.advi-project-description .project-skills a,
+.weather-project-description .project-skills a,
+.sfh-project-description .project-skills a {
+  text-decoration: none;
+  color: rgb(68, 68, 253);
+  font-size: large;
+  font-weight: bold;
+}
+.advi-project-description,
+.weather-project-description {
+  margin-left: 100px;
+}
+.sfh-project-description {
+  margin-right: 100px;
+}
+.advi-project-description,
+.sfh-project-description,
+.weather-project-description {
+  border: 2px solid rgb(0, 0, 0);
+  background-color: whitesmoke;
+  border-radius: 20px;
+}
+@media (max-width: 600px) {
+  .advi-project-image,
+  .weather-project-image {
+    margin-left: -300px;
+    width: 300px;
+  }
+  .sfh-project-image {
+    margin-left: 35px;
+  }
+  .advi-project-description,
+  .weather-project-description {
+    margin-top: 450px;
+    margin-left: 25px;
+    width: 300%;
+    text-align: left;
+    padding-right: 100px;
+  }
+  .sfh-project-description {
+    margin-top: 450px;
+    margin-left: -310px;
+    width: 300%;
+    text-align: left;
+    padding-right: 50px;
+  }
+  .advi-project-description .description_list,
+  .weather-project-description .description_list {
+    text-align: left;
+    margin-right: 100px;
+    margin-left: 25px;
+    padding: 0;
+    width: 120%;
+  }
+  .sfh-project-description .description_list {
+    text-align: left;
+    margin-right: 100px;
+    margin-left: 25px;
+    padding: 0;
+    width: 100%;
+  }
+  .advi-project-description .project-skills,
+  .weather-project-description .project-skills,
+  .sfh-project-description .project-skills {
+    text-align: left;
+    width: 100%;
+    margin-left: 10px;
+  }
+  .advi-project-description .project-skills p,
+  .weather-project-description .project-skills p,
+  .sfh-project-description .project-skills p {
+    font-size: small;
+  }
+  .advi-project-description .project-skills h3,
+  .weather-project-description .project-skills h3,
+  .sfh-project-description .project-skills h3 {
+    text-align: left;
+  }
+}

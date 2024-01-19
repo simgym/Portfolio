@@ -1,0 +1,60 @@
+.contact-wrapper {
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+  padding: 20px;
+  margin-top: -20px;
+}
+.message-me-form {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  border: 2px solid lightgrey;
+  border-radius: 10px;
+  padding: 50px;
+  height: 300px;
+  width: 500px;
+  margin-left: 620px;
+  color: rgb(0, 0, 0);
+  background-color: white;
+  font-weight: bold;
+  box-shadow: -20px 20px 10px rgba(0, 0, 0, 0.434);
+  margin-bottom: 50px;
+}
+
+.message-me-input {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.message-me-submit {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(77, 17, 167);
+  color: white;
+  cursor: pointer;
+}
+
+.message-me-submit:hover {
+  background-color: rgb(62, 14, 134);
+}
+.response-result {
+  color: rgb(255, 255, 255);
+  font-size: x-large;
+  text-align: right;
+}
+.message-heading {
+  text-align: center;
+  font-size: xxx-large;
+  color: white;
+}
+@media (max-width: 600px) {
+  .message-me-form {
+    margin-left: 0px;
+    height: 300px;
+    width: 270px;
+    padding: 30px;
+  }
+}

@@ -1,0 +1,161 @@
+.education {
+  color: rgb(250, 239, 224);
+  font-family: "Futura", sans-serif;
+  background-image: url(../assets/stars.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.education-heading {
+  text-align: center;
+  font-size: xxx-large;
+  margin-top: 0;
+}
+.college-details {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-left: 100px;
+}
+.college-details img {
+  width: 700px;
+  height: 400px;
+  margin-right: 100px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.college-element {
+  border: 2px solid white;
+  padding: 20px;
+  height: 300px;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+.courses {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.courses h4 {
+  font-size: larger;
+}
+.high-school-details {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-right: 100px;
+}
+.high-school-details img {
+  width: 700px;
+  height: 400px;
+  margin-left: 100px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+.school-element {
+  border: 2px solid white;
+  padding: 20px;
+  height: 220px;
+  border-radius: 50px;
+  margin-top: 50px;
+}
+.location-date {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 600px) {
+  .education {
+    color: rgb(250, 239, 224);
+    font-family: "Futura", sans-serif;
+    background-image: url(../assets/edu_mob.jpg);
+    background-position: right;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .college-details {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  .college-details img {
+    width: 350px;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: -505px;
+  }
+  .college-element {
+    border: 2px solid white;
+    padding-right: 170px;
+    height: 300px;
+    border-radius: 50px;
+    margin-top: 320px;
+    width: 100%;
+    height: 100%;
+    margin-right: 150px;
+    margin-left: -130px;
+    text-align: left;
+  }
+  .college-element h1 {
+    padding: 0;
+    width: 169%;
+  }
+  .college-element h2 {
+    padding: 0;
+    width: 169%;
+  }
+  .college-element .location-date {
+    padding: 0;
+    width: 190%;
+  }
+  .college-element .courses {
+    padding: 0;
+    width: 200%;
+  }
+  /*---------------------------------------------------*/
+  .high-school-details {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+  }
+  .high-school-details img {
+    width: 350px;
+    height: 250px;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-left: -30px;
+    border: 2px solid white;
+  }
+  .school-element {
+    border: 2px solid white;
+    padding-right: 190px;
+    height: 300px;
+    border-radius: 50px;
+    margin-top: 320px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    margin-right: 150px;
+    margin-left: -355px;
+    text-align: left;
+  }
+  .school-element h1 {
+    padding: 0;
+    width: 169%;
+  }
+  .school-element h2 {
+    padding: 0;
+    width: 169%;
+  }
+  .school-element .location-date {
+    padding: 0;
+    width: 215%;
+  }
+}

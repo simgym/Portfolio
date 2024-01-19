@@ -1,0 +1,101 @@
+.hero {
+  height: calc(100vh - 100px);
+  overflow: hidden;
+  background: linear-gradient(180deg, #0c0c1d, #111132);
+}
+.hero .wrapper {
+  max-width: 1366px;
+  height: 100%;
+  margin: auto;
+}
+.hero .wrapper .textContainer {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+}
+.hero .wrapper .textContainer h2 {
+  font-size: 30px;
+  color: rebeccapurple;
+  letter-spacing: 10px;
+}
+.hero .wrapper .textContainer h1 {
+  font-size: 88px;
+}
+.hero .wrapper .textContainer .buttons button {
+  padding: 20px;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: transparent;
+  color: white;
+  margin-right: 20px;
+  cursor: pointer;
+  font-weight: 300;
+}
+.hero .wrapper .textContainer img {
+  width: 50px;
+}
+.hero .imageContainer {
+  height: 100%;
+  position: absolute;
+  top: 300px;
+  right: 0;
+}
+.hero .imageContainer img {
+  width: 80%;
+  height: 50%;
+  object-fit: cover;
+}
+.hero .slidingTextContainer {
+  position: absolute;
+  font-size: 50vh;
+  bottom: -120px;
+  white-space: nowrap;
+  color: #ffffff09;
+  width: 50%;
+  font-weight: bold;
+}
+@media (max-width: 600px) {
+  .hero .imageContainer img {
+    width: 40%;
+    height: 25%;
+    object-fit: cover;
+    margin-left: 200px;
+    margin-top: -150px;
+  }
+  .hero .wrapper .textContainer h2 {
+    font-size: 25px;
+    color: rebeccapurple;
+    letter-spacing: 10px;
+    margin-left: 10px;
+    margin-top: 50px;
+  }
+  .hero .wrapper .textContainer h1 {
+    font-size: 50px;
+
+    margin-bottom: 0;
+    margin-top: 80px;
+    width: 190%;
+    text-align: center;
+  }
+  .hero .wrapper {
+    justify-content: space-between;
+  }
+  .hero .wrapper .textContainer .buttons button {
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+    font-weight: 300;
+    margin-left: 50px;
+    width: 150%;
+    margin-top: 20px;
+  }
+  .hero .wrapper .textContainer .buttons {
+    margin-top: 50px;
+  }
+}

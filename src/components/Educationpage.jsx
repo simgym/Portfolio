@@ -25,8 +25,8 @@ const Educationpage = () => {
             <li>
               <motion.img
                 src={MSIT}
-                initial={{ x: 100, opacity: 0 }}
-                whileInView={{ x: 0, opacity: 1 }}
+                initial={{ y: 20, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
                 transition={{ type: "spring", delay: 0.7, stiffness: 80 }}
               />
             </li>
@@ -37,8 +37,8 @@ const Educationpage = () => {
             <li>
               <motion.img
                 src={ipis}
-                initial={{ x: -600, opacity: 0 }}
-                whileInView={{ x: 0, opacity: 1 }}
+                initial={{ y: 20, opacity: 0 }}
+                whileInView={{ y: 0, opacity: 1 }}
                 transition={{ type: "spring", delay: 0.7, stiffness: 80 }}
               />
             </li>

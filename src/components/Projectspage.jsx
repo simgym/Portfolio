@@ -2,8 +2,8 @@ import { motion } from "framer-motion";
 import "./Projectspage.css";
 
 const variants = {
-  initialLeft: { scale: 0, opacity: 0, x: -200, y: 100 },
-  initialRight: { scale: 0, opacity: 0, x: 200, y: 100 },
+  initialLeft: { scale: 0, opacity: 0, y: 100 },
+  initialRight: { scale: 0, opacity: 0, y: 100 },
   animate: {
     scale: 1,
     opacity: 1,

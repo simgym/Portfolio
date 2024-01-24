@@ -6,7 +6,7 @@ import "./Sidebar.css";
 
 const variants = {
   open: {
-    clipPath: "circle(6000px at 50px 50px)",
+    clipPath: "circle(7200px at 50px 50px)",
     transition: { type: "spring", stiffness: 10 },
   },
   close: {

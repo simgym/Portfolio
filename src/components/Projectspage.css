@@ -91,10 +91,22 @@
   border-radius: 20px;
 }
 @media (max-width: 600px) {
-  .advi-project-image,
+  .project_wrapper {
+    background-image: url(../assets/sky.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
   .weather-project-image {
-    margin-left: -300px;
+    margin-left: -280px;
     width: 300px;
+  }
+  .advi-project-image {
+    margin-left: -320px;
   }
   .sfh-project-image {
     margin-left: 35px;
@@ -109,11 +121,12 @@
   }
   .sfh-project-description {
     margin-top: 450px;
-    margin-left: -310px;
+    margin-left: -300px;
     width: 300%;
     text-align: left;
     padding-right: 50px;
   }
+
   .advi-project-description .description_list,
   .weather-project-description .description_list {
     text-align: left;
